@@ -38,7 +38,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My journey in tech is driven by a love for programming and a continuous quest for innovation, especially in leveraging <b className="purple">Node.js</b> and
+              My journey in tech is driven by a crave for creation and a continuous quest for innovation, especially in leveraging <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}

@@ -8,14 +8,29 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, My full name is <span className="purple">Pakapong Mongkol </span>
-            residing in <span className="purple"> Murrieta, California</span>
+            Thanks for asking! My full name is <span className="purple">Pakapong Mongkol </span>
+            and i'm currently residing in <span className="purple"> Murrieta, California</span>
             <br />
             <br />
             I am seeking a challenging position in a company that will allow me to utilize my skills and knowledge in the field of software development.
             <br />
             <br />
-            I have completed UC Berkeley's Full Stack Web Development Bootcamp and have a strong foundation in the MERN stack. I am also a certified AI Prompter. While seeking for other certifications, I am also working on a few projects to further enhance my skills.
+            I have completed {" "}
+            <span className="purple">
+              UC Berkeley's
+            </span>
+            {" "}
+            Full Stack Web Development Bootcamp and have a strong foundation in the{" "}
+            <span className="purple">
+              MERN stack.
+
+            </span>
+            {" "}
+            I am also a {" "}
+            <span className="purple">
+              certified AI Prompter.
+            </span>{" "}
+            While seeking for other certifications, I am also working on a few projects to further enhance my skills.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
