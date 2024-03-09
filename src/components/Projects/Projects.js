@@ -23,7 +23,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Academa"
-              description="With OpenAI, this app will generate flashcards for the user to use to study and readily provides an AI chatbot to guide and answer any questions you may have about the topic."
+              description="Using techs OpenAI, MERN, and GraphQl this application will generate flashcards for the user to use to study and readily provides users an AI helper chatbot to guide and answer any questions you may have about the topic."
               ghLink="https://github.com/Pak547/academa2"
             // demoLink=""
             />
@@ -34,7 +34,8 @@ function Projects() {
               imgPath={HackerGrove}
               isBlog={false}
               title="HackerGrove"
-              description="Habitually reinforces a healthy behaviors for software devs who want to track their time spent on projects, or learning new languages."
+              description="Habitually reinforces a healthy behaviors for software devs who want to track their time spent on projects, or learning coding languages.
+              Uses these: Express, Node.js, and MySQL to store user data."
               ghLink="https://github.com/Pak547/hacker-grove"
               demoLink="hacker-grove-215ce88624e3.herokuapp.com/"
             />
