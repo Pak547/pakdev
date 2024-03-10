@@ -7,13 +7,11 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import RevealOnScroll from "../RevealOnScroll";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <RevealOnScroll>
           <Row>
             <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
@@ -59,8 +57,6 @@ function Home2() {
               </Tilt>
             </Col>
           </Row>
-        </RevealOnScroll>
-        <RevealOnScroll>
           <Row>
             <Col md={12} className="home-about-social">
               <h1>FIND ME ON</h1>
@@ -111,7 +107,6 @@ function Home2() {
               </ul>
             </Col>
           </Row>
-        </RevealOnScroll>
       </Container>
     </Container>
   );
