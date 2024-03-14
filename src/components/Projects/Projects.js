@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import HackerGrove from "../../Assets/Projects/project 2.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import Academa from "../../Assets/Projects/project3.png";
 import SkyScan from "../../Assets/Projects/project1.png";
 
 function Projects() {
@@ -20,12 +20,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Academa}
               isBlog={false}
               title="Academa"
               description="Using techs OpenAI, MERN, and GraphQl this application will generate flashcards for the user to use to study and readily provides users an AI helper chatbot to guide and answer any questions you may have about the topic."
               ghLink="https://github.com/Pak547/academa2"
-            // demoLink=""
+              demoLink="https://academa-zkud.onrender.com/"
             />
           </Col>
 
