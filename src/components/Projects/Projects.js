@@ -20,6 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              target="_blank" rel="noopener noreferrer"
               imgPath={Academa}
               isBlog={false}
               title="Academa"
@@ -31,6 +32,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              target="_blank" rel="noopener noreferrer"
               imgPath={HackerGrove}
               isBlog={false}
               title="HackerGrove"
@@ -42,6 +44,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              target="_blank" rel="noopener noreferrer"
               imgPath={SkyScan}
               isBlog={false}
               title="SkyScan"
