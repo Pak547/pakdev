@@ -4,12 +4,6 @@ import { useForm } from 'react-hook-form';
 import ContactForm from "./ContactForm";
 
 function Contact() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-
   return (
     <Container fluid className="about-section">
       <Particle />
