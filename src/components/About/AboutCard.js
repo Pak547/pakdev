@@ -13,7 +13,7 @@ function AboutCard() {
             I am seeking a challenging position in a company that will allow me to utilize my skills and knowledge in the field of software development.
             <br />
             <br />
-            Finding one’s true calling can often feel like searching for a needle in a haystack. That was until I pivoted into the tech field, driven by a belief that I wasn't living up to my fullest potential. My journey into tech was fueled by an independent spirit, a charismatic personality, and a forward-thinking mindset that effortlessly meshes with the innovative essence of programming.
+            Finding one’s true calling can often feel like searching for a needle in a haystack. That was until I pivoted into the tech field, driven by a belief that I wasn't living up to my fullest potential. My journey into tech was fueled by an <span className="purple">independent</span>{" "}spirit, a <span className="purple">charismatic</span>{" "}personality, and a forward-thinking mindset that effortlessly meshes with the innovative essence of programming.
             <br />
             <br />
             As you explore my <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pakapong-mongkol/" >LinkedIn</a>, my portfolio, or <a target="_blank" rel="noopener noreferrer" href="https://github.com/Pak547">GitHub</a>, you'll notice a consistent theme, "passion". A passion that not only propelled me through a rigorous Full Stack MERN boot camp but also empowered me to take on freelancing roles for local businesses, crafting websites that serve as a testament to my dedication to technology and scalable web applications.
