@@ -38,7 +38,7 @@ function Home2() {
                 </i>
                 <br />
                 <br />
-                I have completed UC Berkeley's Full Stack Web Development Bootcamp. I am also a certified AI Prompter. While seeking for other certifications, I am also working on a few projects to further enhance my skills.
+                I have completed UC Berkeley's Full Stack Web Development Bootcamp. I am also a certified AI Prompter. While seeking for other certifications, I am also working on a few AI projects to further enhance my skills.
               </p>
             </Col>
             <Col md={4} className="myAvtar">

@@ -51,11 +51,11 @@ function AboutCard() {
               <ImPointRight /> Badminton
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Foodie Adventures
             </li>
           </ul>
           <p style={{ color: "rgb(155 126 172)" }}>
-            "All big things come from small beginnings"{" "}
+            "All big things come from small beginnings"
           </p>
           <footer className="blockquote-footer">James Clear "Atomic Habits"</footer>
         </blockquote>
