@@ -12,6 +12,8 @@ function Type() {
           "Open Source Contributor",
           "AI Prompter",
           "Data Analyst",
+          "Salesforce Developer",
+          "Freelance Web Developer",
         ],
         autoStart: true,
         loop: true,

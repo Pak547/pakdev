@@ -33,22 +33,12 @@ function Home2() {
                 with a keen engagement in{" "}
                 <i>
                   <b className="purple">
-                    AI Prompting, Data Analysis, AWS Cloud, Salesforce Development, and more.
+                    AI Prompting, Data Analysis, Salesforce Development, AWS Cloud and more.
                   </b>
                 </i>
                 <br />
                 <br />
-                My journey in tech is driven by a crave for creation and a continuous quest for innovation, especially in leveraging <b className="purple">Node.js</b> and
-                <i>
-                  <b className="purple">
-                    {" "}
-                    Modern Javascript Library and Frameworks
-                  </b>
-                </i>
-                &nbsp; like
-                <i>
-                  <b className="purple"> React.js and Next.js</b>
-                </i>
+                I have completed UC Berkeley's Full Stack Web Development Bootcamp. I am also a certified AI Prompter. While seeking for other certifications, I am also working on a few projects to further enhance my skills.
               </p>
             </Col>
             <Col md={4} className="myAvtar">
