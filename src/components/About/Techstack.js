@@ -20,7 +20,6 @@ import {
   SiAngular,
   // SiPostgresql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -64,16 +63,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiAngular />
       </Col>
-
-      
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col> */}
       {/* <Col xs={4} md={2} className="tech-icons">
         <DiPython />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
       </Col> */}
     </Row>
   );
