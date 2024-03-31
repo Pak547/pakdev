@@ -8,11 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Thanks for asking! My full name is <span className="purple">Pakapong Mongkol </span>
-            and i'm currently residing in <span className="purple"> Murrieta, California</span>
-            <br />
-            <br />
+            My full name is <span className="purple">Pakapong Mongkol </span>
+            and i'm currently residing in <span className="purple"> Murrieta, California.</span> {" "}
             I am seeking a challenging position in a company that will allow me to utilize my skills and knowledge in the field of software development.
+            <br />
+            <br />
+            Finding one’s true calling can often feel like searching for a needle in a haystack. That was until I pivoted into the tech field, driven by a belief that I wasn't living up to my fullest potential. My journey into tech was fueled by an independent spirit, a charismatic personality, and a forward-thinking mindset that effortlessly meshes with the innovative essence of programming.
+            <br />
+            <br />
+            As you explore my LinkedIn, portfolio website, or GitHub, you'll notice a consistent theme, "passion". A passion that not only propelled me through a rigorous Full Stack MERN boot camp but also empowered me to take on freelancing roles for local businesses, crafting websites that serve as a testament to my dedication to technology and scalable web applications.
             <br />
             <br />
             I have completed {" "}
