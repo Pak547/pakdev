@@ -26,14 +26,14 @@ function Home2() {
                 <br />
                 I have experience in building<b className="purple" ></b> &nbsp;
                 <i>
-                  <b className="purple">Dynamic Web Applications
+                  <b className="purple">Scalable, Dynamic Web Applications
                   </b>
                   {" "}
                 </i>
                 with a keen engagement in{" "}
                 <i>
                   <b className="purple">
-                    AI Prompting, Data Analysis, and Cyber Security
+                    AI Prompting, Data Analysis, AWS Cloud, Salesforce Development, and more.
                   </b>
                 </i>
                 <br />
