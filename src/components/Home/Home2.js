@@ -33,7 +33,7 @@ function Home2() {
                 with a keen engagement in{" "}
                 <i>
                   <b className="purple">
-                    AI Prompting, Data Analysis, Salesforce Development, AWS Cloud and more.
+                    AI Prompting, Database Management, Salesforce Development, AWS Cloud and more.
                   </b>
                 </i>
                 <br />
