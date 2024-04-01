@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Col, Container, Row } from 'react-bootstrap';
+
 function ContactForm() {
   const [state, handleSubmit] = useForm("mgegnpkb");
   if (state.succeeded) {
@@ -61,7 +62,8 @@ function ContactForm() {
               />
             </Row>
           <Row>
-            <button type="submit" disabled={state.submitting}>
+            <button type="submit" disabled={state.submitting}
+            className='btn-primary'>
               Submit
             </button>
           </Row>
@@ -70,9 +72,5 @@ function ContactForm() {
     </Container>
   );
 }
-function App() {
-  return (
-    <ContactForm />
-  );
-}
-export default App;
+
+export default ContactForm;
