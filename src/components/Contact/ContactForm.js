@@ -57,8 +57,8 @@ function ContactForm() {
               placeholder='Subject'
               id="subject"
               name="subject"
-                required={false}
-                maxLength={30}
+              required={false}
+              maxLength={30}
             />
             <ValidationError prefix="Subject" field="subject" errors={state.errors} />
           </Row>
