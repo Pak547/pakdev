@@ -1,6 +1,5 @@
 import Particle from "../Particle";
 import { Container, Row, Col } from "react-bootstrap";
-import { useForm } from 'react-hook-form';
 import ContactForm from "./ContactForm";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -9,7 +8,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Contact() {
   return (
     <Container fluid className="about-section">
-      <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
@@ -27,9 +25,9 @@ function Contact() {
           </Col>
         </Row>
       </Container>
-      <Particle />
       <Row>
         <Col md={12} className="home-about-social">
+            <Particle />
           <h1>OR FIND ME ON</h1>
           <p>
             Feel free to <span className="purple">connect </span>with me
