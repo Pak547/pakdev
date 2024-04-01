@@ -12,10 +12,7 @@ export default function ContactForm() {
       <Col>
     <form onSubmit={handleSubmit(onSubmit)}>
       <Row>
-      <input type="text" placeholder="First name" {...register("firstName", {required: true, maxLength: 30})} />
-      </Row>
-      <Row>
-      <input type="text" placeholder="Last name" {...register("firstName", {required: true, maxLength: 50})} />
+      <input type="text" placeholder="Name" {...register("name", {required: true, maxLength: 30})} />
       </Row>
       <Row>
       <input type="text" placeholder="Email" {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
