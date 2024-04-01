@@ -10,9 +10,10 @@ function ContactForm() {
   return (
     <Container>
       <Col>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} method='post' action='https://formspree.io/f/mgegnpkb'>
           <Row style={{ marginBottom: "15px" }}>
             <input
+              autocomplete="name"
               placeholder='Full Name'
               id="name"
               type="name"
@@ -26,6 +27,7 @@ function ContactForm() {
           </Row>
           <Row style={{ marginBottom: "15px" }}>
             <input
+              autocomplete="email"
               placeholder='Email Address'
               id="email"
               type="email"
@@ -49,21 +51,21 @@ function ContactForm() {
               errors={state.errors}
             />
           </Row>
-            <Row style={{ marginBottom: "15px" }}>
-              <textarea
-                placeholder='Message'
-                id="message"
-                name="message"
-              />
-              <ValidationError
-                prefix="Message"
-                field="message"
-                errors={state.errors}
-              />
-            </Row>
+          <Row style={{ marginBottom: "15px" }}>
+            <textarea
+              placeholder='Message'
+              id="message"
+              name="message"
+            />
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
+            />
+          </Row>
           <Row>
             <button type="submit" disabled={state.submitting}
-            className='btn-primary'>
+              className='btn-primary'>
               Submit
             </button>
           </Row>
