@@ -5,12 +5,12 @@ import { Col, Container, Row } from 'react-bootstrap';
 function ContactForm() {
   const [state, handleSubmit] = useForm("mgegnpkb");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <h2 className="purple" >Thanks for your message!</h2>;
   }
   return (
     <Container>
       <Col>
-        <form onSubmit={handleSubmit} method='post' action='https://formspree.io/f/mgegnpkb'>
+        <form onSubmit={handleSubmit} method='POST' action='https://formspree.io/f/mgegnpkb'>
           <Row style={{ marginBottom: "15px" }}>
             <input
               autocomplete="name"
