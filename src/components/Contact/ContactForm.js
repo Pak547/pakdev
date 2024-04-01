@@ -30,6 +30,9 @@ function ContactForm() {
               id="name"
               type="text"
               name="name"
+              maxLength={30}
+              minLength={2}
+              required={true}
             />
             <ValidationError prefix="Name" field="name" errors={state.errors} />
           </Row>
@@ -42,6 +45,8 @@ function ContactForm() {
               id="email"
               type="email"
               name="email"
+              required={true}
+              pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$'
             />
             <ValidationError prefix="Email" field="email" errors={state.errors} />
           </Row>
@@ -52,6 +57,8 @@ function ContactForm() {
               placeholder='Subject'
               id="subject"
               name="subject"
+              required={false}
+              maxLength={30}
             />
             <ValidationError prefix="Subject" field="subject" errors={state.errors} />
           </Row>
@@ -62,6 +69,9 @@ function ContactForm() {
               placeholder='Message'
               id="message"
               name="message"
+              required={true}
+              minLength={10}
+              maxLength={500}
             />
             <ValidationError prefix="Message" field="message" errors={state.errors} />
           </Row>
