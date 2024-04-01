@@ -26,14 +26,16 @@ Recent Projects
 ![AI Flashcard Gen w/ Chatbot](src/Assets/project3final.PNG)
 https://github.com/Pak547/academa2
 
-Resume
-[Resume](<src/Assets/Pakapong's Resume.pdf>)
+![Resume](src/Assets/ResumeScreenshot.png)
+[Download my resume!](<src/Assets/Pakapong's Resume.pdf>)
+
 
 Let's Connect
 I'm always on the lookout for new opportunities and collaborations that challenge me and allow me to put my skills to the test. If you're interested in working together or just want to say hi, feel free to reach out!
 
 LinkedIn: https://www.linkedin.com/in/pakapong-mongkol/
 GitHub: https://github.com/Pak547
+Portfolio: https://www.pakm.dev/
 
 ## Credits
 Template from Soumyajit4419
