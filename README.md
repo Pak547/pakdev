@@ -5,6 +5,7 @@ Full Stack Developer | MERN Specialist | AI Prompter | Web Developer
 Hello! I'm Pak Mongkol, a Full Stack Developer deeply passionate about crafting dynamic web applications and innovative solutions using the MERN stack (MongoDB, Express, React, Node.js). My journey in technology is driven by a relentless pursuit of learning, a passion for solving complex challenges, and a commitment to excellence.
 
 What I Do
+
 Web Development: Specialize in building responsive and scalable web applications using the MERN stack.
 Modern JavaScript Libraries/Frameworks: Utilizing React.js to create intuitive and efficient user interfaces.
 Freelance: Created working, scalable websites for local businesses.
