@@ -24,7 +24,9 @@ AWS Cloud Practitioner - In Progress
 Recent Projects
 ![AI Flashcard Gen w/ Chatbot](src/Assets/project3final.PNG)
 https://github.com/Pak547/academa2
+https://academa-zkud.onrender.com/
 
+Resume
 ![Resume](src/Assets/ResumeScreenshot.png)
 [Download my resume!](<src/Assets/Pakapong's Resume.pdf>)
 
